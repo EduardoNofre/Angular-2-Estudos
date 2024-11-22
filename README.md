@@ -36,17 +36,17 @@ URL do Curso.
 
   - ### 6 -  Como instalar o bootstrap no angular.<br>
     - ### Vá ate o site verifique se mudou algo na instalação e verifique a versão do bootstrap site:<br>
-             url:https://getbootstrap.com.br/.<br>
-             No site acima temos diversos exemplos da utilização dos componentes do  bootstrap.<br>
+        url:https://getbootstrap.com.br/.<br>
+        No site acima temos diversos exemplos da utilização dos componentes do  bootstrap.<br>
     - ### Instalando o bootstrap execute o seguinte comando:<br>
-            npm install bootstrap.<br>
+        npm install bootstrap.<br>
     - ### Apos a instalação algumas configurações e necessaria fazer.<br>
-            No Vscode no projeto procure pelo seguinte diretorio '\nomeDoProjeto\node_modules'.<br>
-            No diretorio procure o diretorio 'node_modules\bootstrap' .<br>
-            No diretorio bootstrap procure pelo arquivo 'bootstrap.min.css'.<br>
-              copie o caminho relativo do diretorio 'node_modules\bootstrap\dist\css\bootstrap.min.css'.<br>
-                ### Observação:<br>
-                Não esqueça de ajustar as barras do path para 'node_modules/bootstrap/dist/css/bootstrap.min.css'<br>
+        No Vscode no projeto procure pelo seguinte diretorio '\nomeDoProjeto\node_modules'.<br>
+        No diretorio procure o diretorio 'node_modules\bootstrap' .<br>
+        No diretorio bootstrap procure pelo arquivo 'bootstrap.min.css'.<br>
+          copie o caminho relativo do diretorio 'node_modules\bootstrap\dist\css\bootstrap.min.css'.<br>
+          ### Observação:<br>
+          Não esqueça de ajustar as barras do path para 'node_modules/bootstrap/dist/css/bootstrap.min.css'<br>
     - ### Procure pelo arquivo angular.json de deixe conforme a imagem abaixo.<br>
             - Inserir na tag styles o .css e na tag scripts .js .<br>
             <p align="center">
