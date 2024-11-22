@@ -47,13 +47,11 @@ URL do Curso.
               copie o caminho relativo do diretorio 'node_modules\bootstrap\dist\css\bootstrap.min.css'.<br>
                 ### Observação:<br>
                 Não esqueça de ajustar as barras do path para 'node_modules/bootstrap/dist/css/bootstrap.min.css'<br>
-        .<br>
-        .<br>
-        .<br>
-        .<br>
-      
-        
-      
+        - Procure pelo arquivo angular.json de deixe conforme a imagem abaixo.<br>
+            - Inserir na tag styles o .css e na tag scripts .js .<br>
+            <p align="center">
+              <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/css_js.png?raw=true" alt="Sublime's custom image"/>  
+            </p>
 
 ## Criando projeto com angular.
 
