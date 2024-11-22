@@ -66,9 +66,9 @@ Escolha um diretorio em seu computar e execute o Prompt/Terminal ng new nomeDoSe
   Para criar um componente no angular e bem simples  execute o comando ng g c nomeDoSeuComponente <br>
   
  ### Observação:<br> 
-    No comando ng g c nomeDoSeuComponente podemos tbm informar o diretorio. 
-      Exemplo:
-        Prompt/Terminal ng g c ./diretorio/nomeDoSeuComponente
+  No comando ng g c nomeDoSeuComponente podemos tbm informar o diretorio. 
+    Exemplo:
+      Prompt/Terminal ng g c ./diretorio/nomeDoSeuComponente
 
 ## Executar o projeto angular.
 Para executar o projeto e preciso esta no direotrio do projeto e executar o seguinte comando: <br>
