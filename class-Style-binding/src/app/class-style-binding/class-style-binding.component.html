@@ -1,0 +1,41 @@
+<section>
+    <article>
+        <h3> Class Style Binding </h3>
+        <div>
+            selecione uma classe
+
+            <div class="alert {{ idClasseSelectAlert.value }}" role="alert"> Cor do texto conforme o select</div>
+
+            <select #idClasseSelectAlert (change)="0">
+                <option value="alert alert-success">Sucesso</option>
+                <option value="alert alert-danger">Erro</option>
+                <option value="alert alert-warning">Alerta</option>
+                <option value="alert alert-info">Informação</option>
+            </select>
+
+            <br>
+            <br>
+
+            <div class="alert alert-success" role="alert" [class.alert-success] ="idClasseSelectAlert.value == 'alert alert-success'">
+                success!
+            </div>
+            <div class="alert alert-danger" role="alert"  [class.alert-danger] ="idClasseSelectAlert.value == 'alert alert-danger'">
+                Erro!
+            </div>
+            <div class="alert alert-warning" role="alert"  [class.alert-warning] ="idClasseSelectAlert.value == 'alert alert-warning'">
+                Alerta!
+            </div>
+            <div class="alert alert-info" role="alert"  [class.alert-info] ="idClasseSelectAlert.value == 'alert alert-info'">
+                Informação!
+            </div>
+
+            <div class="alert alert-success" role="alert"  
+            [style.display]= "idClasseSelectAlert.value == 'alert alert-success' ? 'block' : 'none'">
+                Texto condicional!
+            </div>
+
+
+
+        </div>
+    </article>
+</section>
