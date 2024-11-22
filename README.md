@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/angular2.png?raw=true" alt="Sublime's custom image"/>  
+  <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/angular2.png?raw=true" alt="Sublime's custom image"/>  
 </p>
 
 
@@ -93,7 +93,7 @@ Faça o download  do visual code e instale em seu pc. <br>
  - ## Divisão de blocos de serviços no angular.<br>
 
  <p align="center">
-  <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/blocos.png?raw=true" alt="Sublime's custom image"/>  
+  <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/blocos.png?raw=true" alt="Sublime's custom image"/>  
   </p>
   
    ### Explicando cada bloco:<br>
@@ -109,13 +109,13 @@ Faça o download  do visual code e instale em seu pc. <br>
    Os componentes pode interegir com o back-end.<br>
    
   <p align="center">
-    <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/tudoecompoenente.png?raw=true" alt="Sublime's custom image"/>  
+    <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/tudoecompoenente.png?raw=true" alt="Sublime's custom image"/>  
   </p>
 
   ### Exemplo de distribuição de componentes em uma pagina:<br>
 
   <p align="center">
-    <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/paginaeseuscomponetes.png?raw=true" alt="Sublime's custom image"/>  
+    <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/paginaeseuscomponetes.png?raw=true" alt="Sublime's custom image"/>  
   </p>
 
 ## Bloco service:<br>
@@ -124,14 +124,14 @@ Faça o download  do visual code e instale em seu pc. <br>
    Podemos tambem utilizar gestão de dependência. <br>
 
   <p align="center">
-  <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/regra.png?raw=true" alt="Sublime's custom image"/>  
+  <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/regra.png?raw=true" alt="Sublime's custom image"/>  
   </p>
 
 ## Bloco service:<br>
 Em resumo seria ler as variaveis do componente e exibir a mesma no template ou ler da template e tratar no componente executar eventos.
 
  <p align="center">
-  <img src="https://github.com/EduardoNofre/Angular-Estudos/blob/main/DataBinding.png?raw=true" alt="Sublime's custom image"/>  
+  <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/DataBinding.png?raw=true" alt="Sublime's custom image"/>  
   </p>
 
 ## Bloco Roteamento:<br>
