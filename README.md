@@ -115,12 +115,12 @@ Faça o download  do visual code e instale em seu pc. <br>
   <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/blocos.png?raw=true" alt="Sublime's custom image"/>  
   </p>
   
-   ### Explicando cada bloco:<br>
-     - Componente encapsula:.<br>
-          - Template.<br>
-          - Metadata: processamento das classs.<br>
-          - Dados a ser mostrado na tela.<br>
-          - Comportamento da view.<br>
+   ### Explicando os bloco:<br>
+    - Componente encapsula:.<br>
+      - Template.<br>
+      - Metadata: processamento das classs.<br>
+      - Dados a ser mostrado na tela.<br>
+      - Comportamento da view.<br>
 
 ## Bloco componente:<br>
   ### Tudo em angular é um componente:<br>
