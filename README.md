@@ -74,19 +74,19 @@ Escolha um diretorio em seu computar e execute o Prompt/Terminal ng new nomeDoSe
 Para executar o projeto e preciso esta no direotrio do projeto e executar o seguinte comando: <br>
   No Prompt/Terminal execute ng s
 
-Resultado deve ser algo parecido com o texto abaixo.<br><br>
-Initial chunk files | Names         | Raw size  <br>
-polyfills.js        | polyfills     | 90.20 kB |<br>
-main.js             | main          |  2.45 kB |<br>
-styles.css          | styles        | 95 bytes |<br>
-                    | Initial total | 92.74 kB  <br>
-
-Application bundle generation complete. [1.559 seconds]
-
-Watch mode enabled. Watching for file changes...
-NOTE: Raw file sizes do not reflect development server per-request transformations.
-  ➜  Local:   http://localhost:4200/
-  ➜  press h + enter to show help
+        Resultado deve ser algo parecido com o texto abaixo.<br><br>
+        Initial chunk files | Names         | Raw size  <br>
+        polyfills.js        | polyfills     | 90.20 kB |<br>
+        main.js             | main          |  2.45 kB |<br>
+        styles.css          | styles        | 95 bytes |<br>
+                            | Initial total | 92.74 kB  <br>
+        
+        Application bundle generation complete. [1.559 seconds]
+        
+        Watch mode enabled. Watching for file changes...
+        NOTE: Raw file sizes do not reflect development server per-request transformations.
+          ➜  Local:   http://localhost:4200/
+          ➜  press h + enter to show help
 
 ## Ide visual code.
 
