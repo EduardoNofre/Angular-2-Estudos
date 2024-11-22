@@ -14,10 +14,10 @@ URL do Curso.
 
 ## Preparando ambiente para o angular.
 
-  1 - Fazer o download  nodejs e instalar.<br>
-  2 - Instalar o Typescript para apos a instalação do nodejs executar o comando Prompt/Terminal *'npm install -g typescript'* <br>
-  3 - Instalar o Angular para apos a instalação do Typescript executar o comando Prompt/Terminal *'npm install -g @angular/cli'* <br>
-  4 - Para verificar se o ambiente esta ok execute o seguinte comando no Prompt/Terminal *'ng v'*  <br>
+  - ### 1 - Fazer o download  nodejs e instalar.<br>
+  - ### 2 - Instalar o Typescript para apos a instalação do nodejs executar o comando Prompt/Terminal *'npm install -g typescript'* <br>
+  - ### 3 - Instalar o Angular para apos a instalação do Typescript executar o comando Prompt/Terminal *'npm install -g @angular/cli'* <br>
+  - ### 4 - Para verificar se o ambiente esta ok execute o seguinte comando no Prompt/Terminal *'ng v'*  <br>
             Resultado deve ser algo parecido com o texto abaixo.<br>
             
             Package                      Version
