@@ -26,7 +26,7 @@ URL do Curso.
             @angular-devkit/core         18.2.12 (cli-only)
             @angular-devkit/schematics   18.2.12 (cli-only)
             @schematics/angular          18.2.12 (cli-only)
-  5 - Caso o comando 'ng v' não seja reconhecido configure as variaveis de ambientes PATH do windows.<br>
+  - ### 5 - Caso o comando 'ng v' não seja reconhecido configure as variaveis de ambientes PATH do windows.<br>
        - Variáveis de Ambiente.<p1><br>
        - Path.<br>
        - Editar.<br>
@@ -34,8 +34,8 @@ URL do Curso.
         C:\Users\SeuUsuario\AppData\Roaming\npm; <br>
         C:\Users\SeuUsuario\AppData\Roaming\npm\node_modules\@angular\cli\bin;<br>
 
-   6 -  Como instalar o bootstrap no angular.<br>
-        - Vá ate o site verifique se mudou algo na instalação e verifique a versão do bootstrap site:<br>
+  - ### 6 -  Como instalar o bootstrap no angular.<br>
+        - ### Vá ate o site verifique se mudou algo na instalação e verifique a versão do bootstrap site:<br>
              url:https://getbootstrap.com.br/.<br>
              No site acima temos diversos exemplos da utilização dos componentes do  bootstrap.<br>
         - Instalando o bootstrap execute o seguinte comando:<br>
