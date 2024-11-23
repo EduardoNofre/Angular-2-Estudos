@@ -1,0 +1,51 @@
+
+<section>
+    <article>
+        <h3> two-way data binding </h3>
+        <h3> Sintaxe interpolação {{exemplo}} </h3>
+        <h3> Sintaxe two-way data binding  [(ngModel)]="Atributo do objeto ou Atributo do componente"</h3>
+        <div>
+
+            1) - Observação:<br> Dado do componente para o view
+            'binding de propriedades'.<br>
+            Nome cliente binding de propriedades: <input type="text"
+                [value]="nome" />
+            <br><br><br>
+
+            2) - Observação:<br> Dado do componente para a view
+            'interpolação'.<br>
+            <p> Nome cliente interpolação: {{ nome }}</p>
+
+            <br><br><br>
+
+            3) - Observação:<br> Dado two bining que é da view para o componente
+            e
+            ao mesmo tempo do componente para a view 'Two-way data binding' <br>
+            Exemplo(3.1) 'Two-way data binding'<br>
+            <input type="text"
+                [ngModel]="nome"
+                (ngModelChange)="nome = $event" />
+                <p> Nome cliente interpolação: {{ nome }}</p>
+            <br><br><br>
+            
+
+            Exemplo(3.2) 'Utilizando objeto pessoa 'Two-way data binding'<br>
+            nomeCliente: <input type="text" [(ngModel)]="pessoa.nomeCliente" /><br>
+            telefone: <input type="text" [(ngModel)]="pessoa.telefone" /><br>
+            endereco: <input type="text" [(ngModel)]="pessoa.endereco" /><br>
+            idade: <input type="text" [(ngModel)]="pessoa.idade" /><br>
+            cidade: <input type="text" [(ngModel)]="pessoa.cidade" /><br>
+            pessoa: <input type="text" [(ngModel)]="pessoa.estado" /><br>
+            <br><br><br>
+
+            Objeto interpolação do objeto sendo modificado 'Two-way data binding'<br>
+            pessoa :        {{ pessoa.nomeCliente}}<br>
+            cidade :        {{ pessoa.telefone }}<br>
+            idade :         {{ pessoa.endereco }}<br>
+            endereco :      {{pessoa.idade }}<br>
+            telefone :      {{pessoa.cidade }}<br>
+            nomeCliente:    {{pessoa.estado }}<br>
+
+        </div>
+    </article>
+</section>
