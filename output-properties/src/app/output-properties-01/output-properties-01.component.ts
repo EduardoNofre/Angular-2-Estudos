@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class OutputProperties01Component {
 
   public valorInicial:number = 100;
+
+
+  public onMudouValor(evento:Event){
+    console.log(evento);
+  }
 }

@@ -1,6 +1,9 @@
 <article>
     <h3> Estudo output Properties!</h3>
     <section>
-        <contador [valor]="valorInicial" ></contador>
+        <contador [valor]="valorInicial"
+        (mudouValor) = "onMudouValor($event)">
+            
+        </contador>
     </section>
-  </article>
+</article>
