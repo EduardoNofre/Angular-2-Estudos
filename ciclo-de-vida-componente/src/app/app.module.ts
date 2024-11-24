@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
+import { ComponenteFilhaCicloDeVidaComponent } from './componente-filha-ciclo-de-vida/componente-filha-ciclo-de-vida.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ComponentePaiComponent,
+    ComponenteFilhaCicloDeVidaComponent
   ],
   imports: [
     BrowserModule,
