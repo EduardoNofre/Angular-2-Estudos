@@ -9,6 +9,8 @@ export class OutputProperties02Component {
 
   @Input() valor:number = 0;
 
+  @Input() exemplo:String = '';
+
   @Output() mudouValor = new EventEmitter();
 
   public decrementa(){
