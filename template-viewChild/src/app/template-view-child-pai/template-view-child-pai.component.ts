@@ -9,6 +9,9 @@ export class TemplateViewChildPaiComponent {
   valor: number = 5;
   destruirCicloEvent: boolean = false;
 
+  variavelExemplo1: String ="@ViewChild";
+  variavelExemplo2: String =" @ViewChild('variavelLocalInput') recebeVariavelLocalInput!: ElementRef;";
+
   @ViewChild('variavelLocalInput') recebeVariavelLocalInput!: ElementRef;
 
   constructor(){

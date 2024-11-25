@@ -1,5 +1,12 @@
 <div>
-    two-way data binding: {{valor}}<br>
+
+    <h2> two-way data binding: {{valor}}</h2><br>
+    <h2>Exemplo variavel local:</h2> <br>
+    Aqui tambem utlizamos uma variavel local para utlizar a variavel local utlizando o  '#'<br>
+    <h5>#variavelLocalInput</h5> <br><br>
+    Agora que o componente reconheça/ler ou encontre essa variavel e necessario utilizar a {{variavelExemplo1}} <br>
+    <h2>Exemplo reconheça/ler variavel local componente:</h2> <br>
+    <h5>{{variavelExemplo2}}</h5><br><br>
     <button class="btn btn-primary" (click)="decrementa()">-</button>
     <input type="text" [(value)]="valor" readonly #variavelLocalInput>
     <button class="btn btn-primary" (click)="incremento()">+</button>
