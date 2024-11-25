@@ -11,11 +11,15 @@ export class TemplateViewChildPaiComponent {
 
   @ViewChild('variavelLocalInput') recebeVariavelLocalInput!: ElementRef;
 
+  constructor(){
+
+  }
+
   public incremento() {
     this.recebeVariavelLocalInput.nativeElement.value++;
   }
   public decrementa() {
-    this.recebeVariavelLocalInput.nativeElement.value--;
+    this.recebeVariavelLocalInput.nativeElement.value--;;
   }
 
   public destruirCiclo() {

@@ -1,6 +1,6 @@
 <div>
     two-way data binding: {{valor}}<br>
     <button class="btn btn-primary" (click)="decrementa()">-</button>
-    <input type="text" [(value)]="valor" readonly>
+    <input type="text" [(value)]="valor" readonly #variavelLocalInput>
     <button class="btn btn-primary" (click)="incremento()">+</button>
 </div>
