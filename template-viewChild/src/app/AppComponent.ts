@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { ComponentFixture } from '@angular/core/testing';
+import { Component, ElementRef, ViewChild } from "@angular/core";
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'template-viewChild';
+
 }
