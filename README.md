@@ -182,6 +182,13 @@ Em resumo seria ler as variaveis do componente e exibir a mesma no template ou l
   ng g c .\path\nomeServico<br>
   Service e responsavel por consumir um serviço ou conter as regas de negocio.
 
+- ### Outros comandos importantes:
+
+ <p align="center">
+  <img src="https://github.com/EduardoNofre/Angular-2-Estudos/blob/main/ComandoNg.png?raw=true" alt="Sublime's custom image"/>  
+  </p>
+  
+
 # Regras e convenções do angular.
 
   - nome de projeto?
