@@ -11,6 +11,7 @@ import { DiretiveNgStyleModule } from './diretive-ng-style/diretive-ng-style.mod
 import { FormsModule } from "@angular/forms";
 import { OperadorNgElvisComponent } from './operador-ng-elvis/operador-ng-elvis.component';
 import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
+import { DiretivaElementRefRendererComponent } from './diretiva-element-ref-renderer/diretiva-element-ref-renderer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-conte
       DiretivaNgForComponent,
       DiretiveNgClassComponent,
       OperadorNgElvisComponent,
-      ExemploNgContentComponent
+      ExemploNgContentComponent,
+      DiretivaElementRefRendererComponent
   ],
   imports: [
     BrowserModule,
