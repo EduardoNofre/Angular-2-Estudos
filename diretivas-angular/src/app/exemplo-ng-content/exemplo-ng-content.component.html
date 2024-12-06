@@ -1,5 +1,28 @@
 
 <div class="alert alert-primary" role="alert">
-    <h1>Exemplo: ng-content<br>git 
+    <h1>Exemplo: ng-content<br>
     </h1>
 </div>
+
+<h1>Sem utilizar o NG-Content: ng-content<br>
+    <br>
+    <div class="panel panel-default">
+        <div class="panel-heading">cabeçalho Panel sem NG-Content exemplo</div>
+        <div class="panel-body">
+            conteudo Panel sem NG-Content exemplo
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <h1>Utilizando o NG-Content: ng-content<br>
+        <br>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <ng-content select=".titulo"></ng-content>
+            </div>
+            <div class="panel-body">
+                <ng-content select=".corpo"></ng-content>
+            </div>
+        </div>
