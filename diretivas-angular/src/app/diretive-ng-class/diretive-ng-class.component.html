@@ -1,0 +1,29 @@
+<div class="alert alert-primary" role="alert">
+    <h1>Diretivas: ngClass <br>
+        ngClass é uma diretiva no Angular que permite adicionar e remover classes CSS de um elemento HTML de forma condicional<br>
+    </h1>
+</div>
+
+<div>
+    <h1>
+        class binding<br>
+        <i class="glyphicon"
+            [class.glyphicon-star-empty]="!favorito"
+            [class.glyphicon-star]="favorito"
+            (click)="isFavorito()">
+        </i>
+    </h1>
+</div>
+<br>
+<br>
+<div>
+<h1>
+    NG class <br>
+    <i class="glyphicon"
+        [ngClass]="{
+            'glyphicon-star-empty': favoritoNgClass,
+            'glyphicon-star': !favoritoNgClass
+        }"
+        (click)="isFavoritoNgClass()"></i>
+</h1>
+</div>

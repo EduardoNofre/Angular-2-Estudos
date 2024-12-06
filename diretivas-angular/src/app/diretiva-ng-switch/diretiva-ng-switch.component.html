@@ -1,0 +1,20 @@
+<div class="alert alert-primary" role="alert">
+    <h1>Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault</h1>
+</div>
+
+
+
+<nav class="nav">
+    <a class="nav-item nav-link" [class.ative]="aba == 'home'"    (click)="aba = 'home'">Home</a>
+    <a class="nav-link nav-link"   [class.ative]="aba == 'perfil'"  (click)="aba = 'perfil'">Perfil</a>
+    <a class="nav-link nav-link"   [class.ative]="aba == 'cursos'"  (click)="aba = 'cursos'">Cursos</a>
+    <a class="nav-link nav-link"   [class.ative]="aba == 'ocultar'" (click)="aba = 'ocultar'">Ocultar</a>
+</nav>
+
+<div  [ngSwitch]="aba">
+    <p *ngSwitchCase = "'home'" class="alert alert-success"> ****** Estamos na aba Home ****** </p>
+    <p *ngSwitchCase = "'perfil'" class="alert alert-dark">****** Estamos na aba perfil ****** </p> 
+    <p *ngSwitchCase = "'cursos'" class="alert alert-warning">****** Estamos na aba cursos ****** </p> 
+    <p *ngSwitchCase = "'ocultar'"class="alert alert-secondary">****** Estamos na aba ocultar ****** </p> 
+    <p *ngSwitchDefault class="alert alert-danger" >Para inciar clique em qualuquer ABA</p>
+</div>

@@ -1,0 +1,31 @@
+
+<div class="alert alert-primary" role="alert">
+    <h1>Operador: Elvis<br>
+        Operador elvis serve para verficiar se os atributos ou objetos estão
+        nulos <br>
+        evitando erro de objeto nulo <br>
+    </h1>
+</div>
+
+<h4>objeto com todos os campos preenchidos</h4>
+<br>
+<br>
+ObjetoExemploSemTipo: {{ObjetoExemploSemTipo}} <br>
+Nome: {{ObjetoExemploSemTipo.nome}} <br>
+telefone: {{ObjetoExemploSemTipo.telefone}}<br>
+endereço: {{ObjetoExemploSemTipo.endereco}}<br>
+idade: {{ObjetoExemploSemTipo.idade}}<br>
+<br>
+<br>
+<h4>objeto com todos os campos Nulos e utlizando operado Elvis evitar nullPointer</h4>
+<br>
+<br>
+EmpresaObjetoPai: {{ObjetoExemploSemTipoNull}} <br>
+Nome: {{ObjetoExemploSemTipoNull.nomeNull}} <br>
+telefone: {{ObjetoExemploSemTipoNull?.telefoneNull}}<br>
+endereço: {{ObjetoExemploSemTipoNull?.enderecoNull}}<br>
+idade: {{ObjetoExemploSemTipoNull?.idadeNull}}<br>
+idade: {{ObjetoExemploSemTipoNull?.idadeNull}}<br><br>
+EmpresaObjetoFilha: {{ObjetoExemploSemTipoNull?.ObjetoExemploSemTipoNullEmpresa}}<br>
+nomeEmpresa: {{ObjetoExemploSemTipoNull?.ObjetoExemploSemTipoNullEmpresa?.nomeEmpresa}}<br>
+nomeEmpresa: {{ObjetoExemploSemTipoNull?.ObjetoExemploSemTipoNullEmpresa?.enderecoEmpresaNUll}}<br>

@@ -1,0 +1,37 @@
+<p>diretiva-ng-if works!</p>
+<div class="alert alert-primary" role="alert">
+    <h1>Diretivas *ngIf <br>* Diretivas são estrutura de dados para templates/paginas do angular <br>* Conehcida tambem como condicional</h1>
+</div>
+<h5>exemplo 1 : *ngIf simples</h5><br>
+<div *ngIf="listaDeCursos().length > 0">
+    <h5>Cursos: {{listaDeCursos()}}</h5>
+</div>
+<br>
+<br>
+<h5>exemplo 2 : *ngIf com Button</h5><br>
+<div>
+    <button (click)="ocultarCursos()" class="btn btn-primary">Cursos disponivel ou indisponivel</button>
+</div>
+<br>
+<div *ngIf="ocultarCursos() == true" class="alert alert-success" role="alert">
+
+    <h5>Lista de cursos disponivel: </h5>
+    <h4>{{exibirCursosDisponivel()}}</h4>
+
+</div>
+
+<div *ngIf="ocultarCursos()" class="alert alert-danger" role="alert">
+
+    <h5>Lista de cursos indisponivel: </h5>
+    <h4>{{cursosNaoDisponivel()}}</h4>
+
+</div>
+<h5>exemplo: hidden pode ser uma alternativa ao *ngIf </h5>
+<br>
+<h2> hidden:</h2>
+<div [hidden]="ocultarCursos()" class="alert alert-warning" role="alert">
+
+    <h5>Lista de cursos disponivel: </h5>
+    cursos: <h4>{{exibirCursosDisponivel()}}</h4>
+
+</div>

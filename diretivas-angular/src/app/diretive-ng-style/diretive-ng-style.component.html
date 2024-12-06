@@ -1,0 +1,37 @@
+<div class="alert alert-primary" role="alert">
+    <h1>Diretivas: ngStyle<br>
+        ngStyle <br>
+    </h1>
+</div>
+<p> Diretivas: ngStyle </p>
+
+<h3> Sem a diretiva [ngStyle] </h3>
+<button
+    [style.backgroundColor]="ativo ? 'blue' : 'gray'"
+    [style.color]="ativo ? 'white' : 'black'"
+    [style.fontWeight]="ativo ? 'bold' : 'normal'"
+    [style.fontSize]="tamanhoFonte + 'px'"
+    (click)="isAtivo()">
+    BTN sem a diretiva [ngStyle]
+</button>
+<br>
+<br>
+<br>
+<input type="text" [(ngModel)]="tamanhoFonte">
+<br>
+<br>
+<br>
+<h3> Com a diretiva [ngStyle] </h3>
+<button
+    [ngStyle]="{
+    'backgroundColor': (ativoComStyle ? 'blue' : 'gray'),
+    'color': (ativoComStyle ? 'white' : 'black'),
+    'fontWeight': (ativoComStyle ? 'bold' : 'normal'),
+    'fontSize': (tamanhoFonteComStyle + 'px')}"
+    (click)="isAtivoComStyle()">
+    <h3> BTN com a diretiva [ngStyle] </h3>
+</button>
+<br>
+<br>
+<br>
+<input type="text" [(ngModel)]="tamanhoFonteComStyle">
