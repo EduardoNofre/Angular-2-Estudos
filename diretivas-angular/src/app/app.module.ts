@@ -11,7 +11,8 @@ import { DiretiveNgStyleModule } from './diretive-ng-style/diretive-ng-style.mod
 import { FormsModule } from "@angular/forms";
 import { OperadorNgElvisComponent } from './operador-ng-elvis/operador-ng-elvis.component';
 import { ExemploNgContentComponent } from './exemplo-ng-content/exemplo-ng-content.component';
-import { DiretivaElementRefRendererComponent } from './diretiva-element-ref-renderer/diretiva-element-ref-renderer.component';
+import { DirFundoAmareloDirective } from './shared/dir-fundo-amarelo.directive';
+import { DiretivasCustomizadaElementrefRendererComponent } from './diretivas-customizada-elementref-renderer/diretivas-customizada-elementref-renderer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { DiretivaElementRefRendererComponent } from './diretiva-element-ref-rend
       DiretiveNgClassComponent,
       OperadorNgElvisComponent,
       ExemploNgContentComponent,
-      DiretivaElementRefRendererComponent
+      DirFundoAmareloDirective,
+      DiretivasCustomizadaElementrefRendererComponent
   ],
   imports: [
     BrowserModule,
