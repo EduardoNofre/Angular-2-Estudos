@@ -15,6 +15,8 @@ import { DirFundoAmareloDirective } from './shared/dir-fundo-amarelo.directive';
 import { DiretivasCustomizadaElementrefRendererComponent } from './diretivas-customizada-elementref-renderer/diretivas-customizada-elementref-renderer.component';
 import { DirFundoVerdeDirective } from './shared/dir-fundo-verde.directive';
 import { DirEventMouseDirective } from './shared/dir-event-mouse.directive';
+import { DirInputPropertyBindingDirective } from './shared/dir-input-property-binding.directive';
+import { DirNgElseDirective } from './shared/dir-ng-else.directive';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { DirEventMouseDirective } from './shared/dir-event-mouse.directive';
       DirFundoAmareloDirective,
       DiretivasCustomizadaElementrefRendererComponent,
       DirFundoVerdeDirective,
-      DirEventMouseDirective
+      DirEventMouseDirective,
+      DirInputPropertyBindingDirective,
+      DirNgElseDirective
   ],
   imports: [
     BrowserModule,
