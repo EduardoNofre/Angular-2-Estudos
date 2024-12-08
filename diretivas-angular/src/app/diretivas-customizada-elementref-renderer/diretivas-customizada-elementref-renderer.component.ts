@@ -11,7 +11,15 @@ export class DiretivasCustomizadaElementrefRendererComponent {
     private diretivasCustomizadaElementrefRendererService: DiretivasCustomizadaElementrefRendererService
   ) {}
 
-  public showNames() {
-    return this.diretivasCustomizadaElementrefRendererService.exibirNomes();
+  public showNamesPerson() {
+    return this.diretivasCustomizadaElementrefRendererService.exibirNomesPessoas();
+  }
+
+  public showNamesAnimal() {
+    return this.diretivasCustomizadaElementrefRendererService.exibirNomesAnimal();
+  }
+
+  public showTags() {
+    return this.diretivasCustomizadaElementrefRendererService.exibirTag();
   }
 }

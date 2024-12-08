@@ -4,12 +4,21 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class DiretivasCustomizadaElementrefRendererService {
-  
-  public listasDeNomes: String[] = ['Toguro', 'Pito', 'Mirely', 'Akira'];
+  public listasDeNomesPessoas: String[] = ['Toguro', 'Pito', 'Mirely', 'Akira'];
+  public listasDeNomesAnimais: String[] = ['Gato', 'Cachorro', 'Elefante', 'Passaro'];
+  public isTagVisivel: boolean = true;
 
   constructor() {}
 
-  public exibirNomes() {
-    return (this.listasDeNomes = this.listasDeNomes);
+  public exibirNomesPessoas() {
+    return this.listasDeNomesPessoas = this.listasDeNomesPessoas;
+  }
+
+  public exibirNomesAnimal() {
+    return this.listasDeNomesAnimais = this.listasDeNomesAnimais;
+  }
+
+  public exibirTag() {
+    return this.isTagVisivel = !this.isTagVisivel;
   }
 }

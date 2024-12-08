@@ -38,9 +38,20 @@
 
     <h1>
         <div>
-            <button (click)="showNames()" class="btn btn-primary">Cursos
+            <button (click)="showTags()" class="btn btn-primary">Cursos
                 disponivel ou indisponivel</button>
         </div>
 
-        
+        <div *ngIf="showTags()" class="alert alert-danger" role="alert">
+
+            <h5>Lista de pesssoas: </h5>
+            <h4>{{showNamesPerson()}}</h4>
+        </div>
+
+        <div *ngIf="showTags()" class="alert alert-danger" role="alert">
+
+            <h5>Lista de animais: </h5>
+            <h4>{{showNamesAnimal()}}</h4>
+       
+        </div>
     </h1>

@@ -13,7 +13,7 @@
     <button (click)="ocultarCursos()" class="btn btn-primary">Cursos disponivel ou indisponivel</button>
 </div>
 <br>
-<div *ngIf="ocultarCursos() == true" class="alert alert-success" role="alert">
+<div *ngIf="ocultarCursos()" class="alert alert-success" role="alert">
 
     <h5>Lista de cursos disponivel: </h5>
     <h4>{{exibirCursosDisponivel()}}</h4>
@@ -26,6 +26,7 @@
     <h4>{{cursosNaoDisponivel()}}</h4>
 
 </div>
+
 <h5>exemplo: hidden pode ser uma alternativa ao *ngIf </h5>
 <br>
 <h2> hidden:</h2>
