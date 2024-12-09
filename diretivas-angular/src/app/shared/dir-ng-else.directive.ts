@@ -1,10 +1,19 @@
-import { Directive } from '@angular/core';
+import { Directive, Input, TemplateRef, ViewContainerRef } from '@angular/core';
 
 @Directive({
-  selector: '[appDirNgElse]'
+  selector: '[DirNgElse]',
 })
 export class DirNgElseDirective {
+  constructor(
+    private templateRef: TemplateRef<any>,
+    private viewContainerRef: ViewContainerRef
+  ) {}
 
-  constructor() { }
-
+  @Input() set DirNgElse(condicao: boolean) {
+    if (!condicao) {
+      this.viewContainerRef.createEmbeddedView(this.templateRef);
+    } else {
+      this.viewContainerRef.clear();
+    }
+  }
 }

@@ -38,8 +38,7 @@
 
     <h1>
         <div>
-            <button (click)="showTags()" class="btn btn-primary">Cursos
-                disponivel ou indisponivel</button>
+            <button (click)="showTags()" class="btn btn-primary">ngElse</button>
         </div>
 
         <div *ngIf="showTags()" class="alert alert-danger" role="alert">
@@ -48,7 +47,7 @@
             <h4>{{showNamesPerson()}}</h4>
         </div>
 
-        <div *ngIf="showTags()" class="alert alert-danger" role="alert">
+        <div *DirNgElse="!showTags()" class="alert alert-danger" role="alert">
 
             <h5>Lista de animais: </h5>
             <h4>{{showNamesAnimal()}}</h4>
