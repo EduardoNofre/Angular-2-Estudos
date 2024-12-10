@@ -1,17 +1,25 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class CursoServicesNgService {
+  public produtos: String[] = [
+    'Shampoo',
+    'Condicionador',
+    'Esmalte',
+    'Creme De Cabelo',
+    'Creme Dental',
+    'Sabonete',
+  ];
 
-  public produtos: String[] = ['Shampoo','Condicionador','Esmalte','Creme De Cabelo','Creme Dental','Sabonete']
+  constructor() {}
 
-  constructor() { }
+  public getProdutos() {
+    return this.produtos;
+  }
 
-  public listarProdutos(){
-
-    return this.produtos = this.produtos;
-
+  public setProdutos(curso: String) {
+    return this.produtos.push(curso);
   }
 }

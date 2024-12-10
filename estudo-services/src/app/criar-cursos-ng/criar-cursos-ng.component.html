@@ -1,3 +1,19 @@
 <div class="alert alert-primary" role="alert">
-    <h1>Escopo de instancia service angular </h1>
+    <h1>Escopo de instancia service angular </h1><br>
+    <h5>Ao adicionar 'providers: [nomeDaService]' no compoenente é gerada uma instancia para casa componenete</h5><br>
 </div>
+
+
+<input type="text" #cursoInput>
+<button (click)="inserirCursos(cursoInput.value)">Inserir curso</button>
+<br>
+<br>
+<br>
+<ul>
+    <li *ngFor="let produto of listaDeProdutos()">
+        <h5>
+            {{produto}}
+        </h5>
+
+    </li>
+</ul>
